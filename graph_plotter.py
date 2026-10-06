@@ -139,7 +139,7 @@ points = np.array(points)
 G = nx.from_edgelist(G)
 G_sub = nx.from_edgelist(G_sub)
 
-L = 0.11
+L = 0.056
 a = 1.0  # Fix width to 1
 
 # Solve for M (number of columns) and snap to closest integer

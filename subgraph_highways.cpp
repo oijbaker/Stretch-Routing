@@ -450,9 +450,9 @@ vector<vector<int>> subgraph(
 }
 
 int main() {
-    int n = 100;
+    int n = 1000;
     double alpha = 2.0;
-    double L = 0.11;
+    double L = 0.056;
     HexGrid grid = make_hex_grid(L);
 
     // The below code generates one instance of the compression algorithm
